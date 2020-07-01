@@ -23,7 +23,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<c:url value="/admin/user/list" />">
+						<a href="<c:url value="/admin/user/list?page=1" />">
 							<i class="ti-user"></i><span><s:message code="menu.user" /> </span>
 						</a>
 					</li>

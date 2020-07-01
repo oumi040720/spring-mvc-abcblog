@@ -23,6 +23,7 @@
 				<value>classpath:menu</value>
 				<value>classpath:header</value>
 				<value>classpath:role</value>
+				<value>classpath:user</value>
 				<value>classpath:common</value>
 				<value>classpath:message</value>
 			</list>

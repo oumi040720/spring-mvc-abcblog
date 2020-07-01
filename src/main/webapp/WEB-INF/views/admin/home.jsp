@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Admin Role</title>
+		<title>Admin | Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<%@ include file="/WEB-INF/views/admin/common/css.jsp" %>

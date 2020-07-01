@@ -9,12 +9,10 @@
 <script src="<c:url value="/template/admin/js/jquery.slimscroll.min.js" />"></script>
 <script src="<c:url value="/template/admin/js/jquery.slicknav.min.js" />"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
-
 <script src="<c:url value="/template/admin/js/plugins.js" />"></script>
 <script src="<c:url value="/template/admin/js/scripts.js" />"></script>
+
+<script src='<c:url value="/template/paging/jquery.twbsPagination.js" />'></script>
 
 <script>
 	$(document).ready(function(){
