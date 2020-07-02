@@ -28,7 +28,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="<c:url value="/admin/category/list?page=1" />">
 							<i class="ti-view-list"></i><span><s:message code="menu.category" /> </span>
 						</a>
 					</li>
