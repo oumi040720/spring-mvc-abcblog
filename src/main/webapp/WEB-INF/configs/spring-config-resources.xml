@@ -25,6 +25,7 @@
 				<value>classpath:role</value>
 				<value>classpath:user</value>
 				<value>classpath:category</value>
+				<value>classpath:post</value>
 				<value>classpath:common</value>
 				<value>classpath:message</value>
 			</list>

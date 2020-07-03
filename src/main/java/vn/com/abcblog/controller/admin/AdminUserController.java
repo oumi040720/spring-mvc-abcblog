@@ -115,10 +115,10 @@ public class AdminUserController {
 			user.setModifiedBy("admin");
 			
 			if (restTemplate.postForObject(url, user, String.class) != null) {
-				model.addAttribute("message", "message_role_add_success");
+				model.addAttribute("message", "message_user_add_success");
 				model.addAttribute("alert", "success");
 			} else {
-				model.addAttribute("message", "message_role_add_fail");
+				model.addAttribute("message", "message_user_add_fail");
 				model.addAttribute("alert", "danger");
 			}
 		} else {
@@ -128,10 +128,10 @@ public class AdminUserController {
 			
 			try {
 				restTemplate.put(url, user);
-				model.addAttribute("message", "message_role_edit_success");
+				model.addAttribute("message", "message_user_edit_success");
 				model.addAttribute("alert", "success");
 			} catch (Exception e) {
-				model.addAttribute("message", "message_role_edit_fail");
+				model.addAttribute("message", "message_user_edit_fail");
 				model.addAttribute("alert", "danger");
 			}
 		}
@@ -149,10 +149,10 @@ public class AdminUserController {
 		
 		try {
 			restTemplate.delete(url);
-			model.addAttribute("message", "message_role_delete_success");
+			model.addAttribute("message", "message_user_delete_success");
 			model.addAttribute("alert", "success");
 		} catch (Exception e) {
-			model.addAttribute("message", "message_role_delete_fail");
+			model.addAttribute("message", "message_user_delete_fail");
 			model.addAttribute("alert", "danger");
 		}
 		

@@ -33,7 +33,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="<c:url value="/admin/post/list?page=1" />">
 							<i class="ti-layers-alt"></i><span><s:message code="menu.post" /> </span>
 						</a>
 					</li>
