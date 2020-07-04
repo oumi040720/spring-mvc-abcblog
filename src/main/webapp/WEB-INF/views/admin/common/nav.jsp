@@ -38,7 +38,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="<c:url value="/admin/tag/list?page=1" />">
 							<i class="ti-tag"></i><span><s:message code="menu.tag" /> </span>
 						</a>
 					</li>
