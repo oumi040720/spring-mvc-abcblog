@@ -27,6 +27,7 @@
 				<value>classpath:category</value>
 				<value>classpath:post</value>
 				<value>classpath:tag</value>
+				<value>classpath:comment</value>
 				<value>classpath:common</value>
 				<value>classpath:message</value>
 			</list>

@@ -43,7 +43,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="<c:url value="/admin/comment/list?page=1" />">
 							<i class="ti-comment-alt"></i><span><s:message code="menu.comment" /> </span>
 						</a>
 					</li>

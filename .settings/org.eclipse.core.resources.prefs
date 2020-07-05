@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/main/resources/category.properties=UTF-8
 encoding//src/main/resources/category_vi.properties=UTF-8
+encoding//src/main/resources/comment.properties=UTF-8
 encoding//src/main/resources/header.properties=UTF-8
 encoding//src/main/resources/menu.properties=UTF-8
 encoding//src/main/resources/menu_vi.properties=UTF-8
